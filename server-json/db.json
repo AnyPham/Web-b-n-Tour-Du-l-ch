@@ -1,0 +1,123 @@
+{
+  "catagories": [
+    {
+      "id": 1,
+      "name": "Nha trang",
+      "createdAt": "1616346753759",
+      "updatedAt": "1616346753759"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Tour 4 đảo Nha Trang",
+      "description": "Tour du lịch tham quan 4 đảo Nha Trang, bao gồm đảo Mun, đảo Một Trứng, đảo Tam Bảo và đảo Vân Phong.",
+      "locations": [
+        {
+          "name": "Đảo Mun",
+          "description": "Đảo Mun là một địa điểm du lịch nổi tiếng ở Nha Trang, với bờ biển đẹp và nơi lặn biển tuyệt vời.",
+          "image": "https://example.com/images/mun-island.jpg"
+        },
+        {
+          "name": "Đảo Một Trứng",
+          "description": "Đảo Một Trứng là một địa điểm đẹp để thưởng ngoạn cảnh biển, với những rạn san hô tuyệt đẹp.",
+          "image": "https://example.com/images/mot-trung-island.jpg"
+        },
+        {
+          "name": "Đảo Tam Bảo",
+          "description": "Đảo Tam Bảo là nơi lý tưởng để tham quan các ngôi đền và chùa tại Nha Trang.",
+          "image": "https://example.com/images/tam-bao-island.jpg"
+        },
+        {
+          "name": "Đảo Vân Phong",
+          "description": "Đảo Vân Phong là nơi cách Nha Trang khoảng 60km, với bãi biển đẹp và nhiều hoạt động giải trí.",
+          "image": "https://example.com/images/van-phong-island.jpg"
+        }
+      ],
+      "price": 1500000,
+      "catagoryId": 1,
+      "start_date": "2023-06-15",
+      "end_date": "2023-06-20",
+      "max_guests": 20,
+      "policies": {
+        "cancellation_policy": "Có thể hủy đặt tour trước 48 giờ",
+        "payment_policy": "Thanh toán trước khi khởi hành"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Huế",
+      "description": "Tour du lịch tham quan 4 đảo Nha Trang, bao gồm đảo Mun, đảo Một Trứng, đảo Tam Bảo và đảo Vân Phong.",
+      "locations": [
+        {
+          "name": "Đảo Mun",
+          "description": "Đảo Mun là một địa điểm du lịch nổi tiếng ở Nha Trang, với bờ biển đẹp và nơi lặn biển tuyệt vời.",
+          "image": "https://example.com/images/mun-island.jpg"
+        },
+        {
+          "name": "Đảo Một Trứng",
+          "description": "Đảo Một Trứng là một địa điểm đẹp để thưởng ngoạn cảnh biển, với những rạn san hô tuyệt đẹp.",
+          "image": "https://example.com/images/mot-trung-island.jpg"
+        },
+        {
+          "name": "Đảo Tam Bảo",
+          "description": "Đảo Tam Bảo là nơi lý tưởng để tham quan các ngôi đền và chùa tại Nha Trang.",
+          "image": "https://example.com/images/tam-bao-island.jpg"
+        },
+        {
+          "name": "Đảo Vân Phong",
+          "description": "Đảo Vân Phong là nơi cách Nha Trang khoảng 60km, với bãi biển đẹp và nhiều hoạt động giải trí.",
+          "image": "https://example.com/images/van-phong-island.jpg"
+        }
+      ],
+      "price": 1500000,
+      "catagoryId": 1,
+      "start_date": "2023-06-15",
+      "end_date": "2023-06-20",
+      "max_guests": 20,
+      "policies": {
+        "cancellation_policy": "Có thể hủy đặt tour trước 48 giờ",
+        "payment_policy": "Thanh toán trước khi khởi hành"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hạ Long",
+      "description": "Tour du lịch tham quan 4 đảo Nha Trang, bao gồm đảo Mun, đảo Một Trứng, đảo Tam Bảo và đảo Vân Phong.",
+      "locations": [
+        {
+          "name": "Đảo Mun",
+          "description": "Đảo Mun là một địa điểm du lịch nổi tiếng ở Nha Trang, với bờ biển đẹp và nơi lặn biển tuyệt vời.",
+          "image": "https://example.com/images/mun-island.jpg"
+        },
+        {
+          "name": "Đảo Một Trứng",
+          "description": "Đảo Một Trứng là một địa điểm đẹp để thưởng ngoạn cảnh biển, với những rạn san hô tuyệt đẹp.",
+          "image": "https://example.com/images/mot-trung-island.jpg"
+        },
+        {
+          "name": "Đảo Tam Bảo",
+          "description": "Đảo Tam Bảo là nơi lý tưởng để tham quan các ngôi đền và chùa tại Nha Trang.",
+          "image": "https://example.com/images/tam-bao-island.jpg"
+        },
+        {
+          "name": "Đảo Vân Phong",
+          "description": "Đảo Vân Phong là nơi cách Nha Trang khoảng 60km, với bãi biển đẹp và nhiều hoạt động giải trí.",
+          "image": "https://example.com/images/van-phong-island.jpg"
+        }
+      ],
+      "price": 1500000,
+      "catagoryId": 1,
+      "start_date": "2023-06-15",
+      "end_date": "2023-06-20",
+      "max_guests": 20,
+      "policies": {
+        "cancellation_policy": "Có thể hủy đặt tour trước 48 giờ",
+        "payment_policy": "Thanh toán trước khi khởi hành"
+      }
+    }
+  ],
+  "profile": {
+    "name": "Po"
+  }
+}
