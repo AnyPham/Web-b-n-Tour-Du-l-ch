@@ -4755,7 +4755,7 @@
     {
       "id": 1,
       "idTour": 10,
-      "commenter": "Nguyen DU Lap",
+      "commenter": "Nguyen Hoang Anh",
       "content": "Khách sạn không có nước nóng không có wifi thẩt sự rất nóng, thái độ nhân viên phục vụ tạm được",
       "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
       "rating": 7,
@@ -4767,7 +4767,7 @@
       "idTour": 12,
       "commenter": "John Doe",
       "content": "Mình mua tour cho gia đình 11 người, gồm người lớn và trẻ em. Gia đình mình đã rất vui vì có một chuyện đi vô cùng thú vị cùng ivivu và Triều Hảo. Cảm ơn em Kiều Anh bên ivivu đã rất nhiệt tình tư vấn và hỗ trợ. Cảm ơn em Giang dẫn tour của cty Triều Hảo đã vô cùng tận tình với gia đình chị. Tour Bali của ivivu và Triều Hảo là tour NÊN ĐI nha mọi người ????",
-      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
+      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, chúng tôi rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
       "rating": 9,
       "date": "22-01-2023",
       "quantityLike": 5
@@ -4775,9 +4775,9 @@
     {
       "id": 3,
       "idTour": 12,
-      "commenter": "Yen",
+      "commenter": "Dat Trinh",
       "content": "This hotel is amazing!",
-      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
+      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, chúng tôi rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
       "rating": 9,
       "date": "22-01-2023",
       "quantityLike": 5
@@ -4797,7 +4797,7 @@
     {
       "id": 1,
       "idComment": 1,
-      "commenter": "Lenh Nguyen",
+      "commenter": "Binh Nguyen",
       "content": "Có phải vậy không"
     },
     {
@@ -4809,20 +4809,26 @@
     {
       "id": 3,
       "idComment": 1,
-      "commenter": "Lenh Nguyen",
+      "commenter": "Binh Quoc Nguyen",
       "content": "Có phải vậy không"
     },
     {
       "id": "91684679-efb7-4c6a-b2e6-e800a6b48525",
       "idComment": 2,
-      "commenter": "LapLap",
-      "content": "Thật tuyệt vờivời"
+      "commenter": "Tuan Anh",
+      "content": "Thật tuyệt vời"
     },
     {
       "id": "91684679-efb7-4c6a-b2e6",
       "idComment": 3,
-      "commenter": "Boy",
+      "commenter": "Boy banh bao",
       "content": "Tour khá tuyệt vời mình cũng rất thích"
+    },
+    {
+      "id": "2e660a15-6cf2-4d83-bc2a-fa6c7490cd20",
+      "idComment": 1,
+      "commenter": "mama",
+      "content": "ok"
     }
   ]
 }
