@@ -76,8 +76,8 @@ const Footer = () => {
             </SocialContainer>
         </Left>
         <Right >
-            <Title>Contact</Title>
-            <ContactItem><Room style={{marginRight:"10px"}}/>18/43 to 5, khu pho 6, phuong Linh Trung, TP.Thu Duc, HCM</ContactItem>
+            <Title>Liên hệ</Title>
+            <ContactItem><Room style={{marginRight:"10px"}}/>18/43 tổ 5, khu phố 6, phường Linh Trung, TP.Thủ Đức, HCM</ContactItem>
             <ContactItem><Phone style={{marginRight:"10px"}}/>+84 355 422 160</ContactItem>
             <ContactItem><EmailOutlined style={{marginRight:"10px"}}/>binhquoc23@gmail.com</ContactItem>
             <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"></Payment>
