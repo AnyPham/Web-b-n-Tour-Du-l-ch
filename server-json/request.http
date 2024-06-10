@@ -1,0 +1,33 @@
+@baseUrl = http://localhost:5001/api
+POST {{baseUrl}}/catagories
+
+###
+POST {{baseUrl}}/catagories
+Content-Type: application/json
+
+{
+    "name": "Hạ Long"
+}
+
+###
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+###
+PATCH  {{baseUrl}}/catagories/2
+Content-Type: application/json
+
+{
+    "name": "Hạ Long New"
+}
+
+###
+DELETE {{baseUrl}}/catagories/2
+
+###
+GET {{baseUrl}}/products
+
+###
+GET {{baseUrl}}/catagories
+
+
