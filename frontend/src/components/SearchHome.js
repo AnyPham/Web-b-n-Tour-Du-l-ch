@@ -52,9 +52,9 @@ export default function SearchHome(prop) {
 
   return (
     <div className="search-home container-fluid p-0 position-relative">
-      <img style={{width:1408, height:365.2}}
+      <img style={{width:1308, height:370}}
         className={`w-100 ${image ? 'd-none' : ''}`}
-        src={'https://res.klook.com/image/upload/v1712052717/dju4juyuo7h051oplpml.jpg'}
+        src={'https://file1.dangcongsan.vn/DATA/0/2018/01/149_1024x548-10_00_36_430.jpg'}
         alt="..."
       />
       {/*<div*/}
