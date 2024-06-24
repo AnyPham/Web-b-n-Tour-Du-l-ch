@@ -1,7 +1,7 @@
 import { EmailOutlined, Facebook, Instagram, Phone, Pinterest, Room, Twitter } from "@mui/icons-material";
 import styled from "styled-components";
 import { mobile } from "../responsive";
-import logo from "../data/imgs/logo_travel.png";
+import logo2 from "../data/imgs/logo_travel.png";
 const Container = styled.div`
     display: flex;
     ${mobile({ flexDirection: "column" })};
@@ -56,7 +56,7 @@ const Footer = () => {
     <div className="bg-white  mt-5">
     <Container className="container">
         <Left>
-            <Logo><img src={logo} alt="logo" style={{width: '100px'}}></img></Logo>
+            <Logo><img src={logo2} alt="logo" style={{width: '100px'}}></img></Logo>
             <Desc>
                 Chúng tôi vô cùng hân hoan và biết ơn với sự tin tưởng và ủng hộ của quý khách hàng. Sự hài lòng của quý khách là niềm động lực lớn để chúng tôi tiếp tục nỗ lực và phát triển hơn nữa.
             </Desc>
