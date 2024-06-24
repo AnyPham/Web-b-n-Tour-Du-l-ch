@@ -49,9 +49,9 @@ const Navbar = () => {
             <div className="item">
               <Link to={"/category/2"}>Nước ngoài</Link>
             </div>
-            <div className="item">
-              <Link to={"/category/3"}>Tour hot</Link>
-            </div>
+            {/*<div className="item">*/}
+            {/*  <Link to={"/category/3"}>Tour hot</Link>*/}
+            {/*</div>*/}
           </div>
           <div className="nav-right">
             {
