@@ -5,8 +5,8 @@ import {Link} from "react-router-dom";
 export const ItemTourCheckout = (prop) => {
     return (
         <>
-                <a className="btn support-switchboard p-3 pr-4 pl-4 btn-block rounded" href="tel:1900 1808">
-                    <span>Hỗ trợ giao dịch: <b>1900 1808</b></span>
+                <a className="btn support-switchboard p-3 pr-4 pl-4 btn-block rounded" href="tel:0355 422 160">
+                    <span>Hỗ trợ giao dịch: <b>0355 422 160</b></span>
                 </a>
             <div className="mt-3">
                 <div className="card" style={{width: "100%"}}>

@@ -6,7 +6,6 @@ import {ItemTourCheckout} from "../components/checkout/ItemTourCheckout";
 import {useDispatch, useSelector} from "react-redux";
 import {removeCheckout, updateStatusPayment} from "../redux/slices/CheckoutSlice";
 import {
-    formatCardNumber,
     isNumericString,
     METHOD_1,
     METHOD_2,
@@ -14,12 +13,11 @@ import {
     METHOD_4
 } from "../utils/utill";
 import Swal from "sweetalert2";
-import {addCheckoutToLocal, removeCartTourFromLocal, user} from "../utils/localStorageUtils";
+import {addCheckoutToLocal, removeCartTourFromLocal} from "../utils/localStorageUtils";
 import {clearSelectedTour} from "../redux/slices/SelectedTourSlice";
 import {removeCart} from "../redux/slices/CartsSlice";
 import {Link, useNavigate} from "react-router-dom";
-import paymentImage from "../data/imgs/payment.png"
-import cvcimage from "../data/imgs/cvc.png"
+
 
 export const Checkout = () => {
     const user = JSON.parse(localStorage.getItem("user"));
@@ -206,105 +204,24 @@ export const Checkout = () => {
                     <div className="col-md-8 mt-3">
                         {
                             id ?
-                                id === 1 ? <div className="bg-light p-3">
-                                        <p>Quý khách vui lòng đến trạm ATM gần nhất để thanh toán</p>
-                                        <p>Thời gian hết hạn thanh toán: Sau 3 ngày kể từ ngày xác nhận thanh toán!</p>
-                                        <p>Sau khi thanh toán xong. Chúng tôi sẽ gửi mail xác nhận đến bạn!</p>
-                                        <p>Chúc bạn có những khoảnh khắc vui vẻ khi trải nghiệm dịch vụ của chúng tôi!</p>
-                                    </div>
-                                    :
-                                    id === 2 ?
-                                        <>
-                                            <div className="form-group">
-                                                <label>Card number</label>
-                                                <div className="input-group">
-                                                    <input type="text" name="cart_number" className="form-control"
-                                                           placeholder="1234 1234 1234 1234" maxLength={19}
-                                                           value={formatCardNumber(cardNumber)}
-                                                           onChange={(e) => setCardNumber(e.target.value)}
-                                                    />
-                                                    <div className="input-group-append">
-                                                      <span className="input-group-text" style={{padding: 0}}>
-                                                        <img
-                                                            src={paymentImage}
-                                                            alt="Icon"
-                                                            style={{width: '150px', height: '20px', objectFit: 'cover'}}
-                                                        />
-                                                      </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className="row">
-
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <label>Expiration </label>
-                                                        <input type="month" name="expiration" className="form-control"
-                                                               placeholder="MM/YY"
-                                                               onChange={handleExpirationChange}
-                                                        />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <label>CVC</label>
-                                                        <div className="input-group">
-                                                            <input type="number" name="cart_number"
-                                                                   className="form-control"
-                                                                   placeholder="CVC"
-                                                                   value={cvc}
-                                                                   onChange={handleCVCChange}
-                                                            />
-                                                            <div className="input-group-append">
-                                                                <span className="input-group-text" style={{padding: 0}}>
-                                                                  <img
-                                                                      src={cvcimage}
-                                                                      alt="Icon"
-                                                                      style={{
-                                                                          width: '30px',
-                                                                          height: '20px',
-                                                                          objectFit: 'cover'
-                                                                      }}
-                                                                  />
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <label>Country</label>
-                                            <select className="custom-select"
-                                                    onBlur={(e) => setCountry(e.target.value)}>
-                                                {countries.map((country) => (
-                                                    <option key={country.name.common} value={country.name.common}
-                                                            selected={country.name.common === 'Vietnam'}>
-                                                        {country.name.common}
-                                                    </option>
-                                                ))}
-                                            </select>
-                                        </>
-                                        : id === 3 ? <div className="bg-light p-3">
-                                                <p>Quý khách vui lòng chuyển khoản đến số tài khoản ngân hàng BIDV:<strong
-                                                    className="border text-primary">3141 000 111 134</strong> để thanh toán</p>
+                                id === 3 ? <div className="bg-light p-3">
+                                                <p>Quý khách vui lòng chuyển khoản đến số tài khoản ngân hàng Agribank:<strong
+                                                    className="border text-primary"> 4303 205 251 458</strong> để thanh toán</p>
                                                 <p>Thời gian hết hạn thanh toán: Sau 7 ngày kể từ ngày xác nhận thanh toán!</p>
                                                 <p>Sau khi thanh toán xong. Chúng tôi sẽ gửi mail xác nhận đến bạn!</p>
                                                 <p>Chúc bạn có những khoảnh khắc vui vẻ khi trải nghiệm dịch vụ của chúng
                                                     tôi!</p>
                                             </div> :
-                                            id === 4 ?
-                                                <div className="bg-light p-3">
+
+                                            id === 4 ? <div className="bg-light p-3">
                                                     <p>Quý khách vui lòng đến địa chỉ:<strong
-                                                        className="border text-primary">331 - Đường số 17 - phường Linh Xuân
-                                                        - Tp Thủ Đức - Tp Hồ Chí Minh</strong> để thanh toán</p>
+                                                        className="border text-primary"> 18/43 tổ 5, khu phố 6, phường Linh Trung, TP.Thủ Đức, HCM</strong> để thanh toán</p>
                                                     <p>Thời gian hết hạn thanh toán: Sau 7 ngày kể từ ngày xác nhận thanh
                                                         toán!</p>
                                                     <p>Sau khi thanh toán xong. Chúng tôi sẽ gửi mail xác nhận đến bạn!</p>
                                                     <p>Chúc bạn có những khoảnh khắc vui vẻ khi trải nghiệm dịch vụ của
                                                         chúng tôi!</p>
-                                                </div>
-                                                : ""
+                                                </div> :""
                                 : ""
                         }
                         {
@@ -329,7 +246,7 @@ export const Checkout = () => {
                             <div className="bg-light col-md-10 rounded mb-2 p-3">
                                 <h3 className="text-center text-primary">Xác nhận thành công!</h3>
                                 <p>Quý khách vui lòng kiểm tra email để biết thêm thông tin</p>
-                                <p>Quý khách có bất kì thắc mắc hoặc vấn để gì hãy liên hệ: <span className="text-primary">1900 1808</span> để được tư vấn</p>
+                                <p>Quý khách có bất kì thắc mắc hoặc vấn để gì hãy liên hệ: <span className="text-primary">0 355 422 160</span> để được tư vấn</p>
                                 <p>Rất vui khi được phục vụ quý khách</p>
                                 <p>Xin cảm ơn!</p>
                             </div>

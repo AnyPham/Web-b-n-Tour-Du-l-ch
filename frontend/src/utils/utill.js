@@ -8,7 +8,7 @@ export const RATE_QUANTITY_OF_CHILD_WITH_ADULT = 2;
 export const METHOD_1 = "THANH TOÁN BẰNG THẺ NỘI ĐỊA ATM"
 export const METHOD_2 = "THANH TOÁN BẰNG THẺ TÍN DỤNG"
 export const METHOD_3 = "THANH TOÁN CHUYỂN KHOẢN QUA NGÂN HÀNG"
-export const METHOD_4 = "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH SAIGONTOURIST"
+export const METHOD_4 = "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH BINHANHDAT"
 export const isEmailValid = (email) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);

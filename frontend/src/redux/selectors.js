@@ -89,7 +89,7 @@ export const locationHotDomestic = createSelector(
       tours
         .filter(tour => tour.catagoryId === categoryIdToFilter)
         .map(tour => tour.end_location)
-    )].slice(0, 10);;
+    )].slice(0, 10);
 
     return Locations;
   }
