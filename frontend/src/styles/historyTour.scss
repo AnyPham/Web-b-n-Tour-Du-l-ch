@@ -1,0 +1,24 @@
+@import './root.scss';
+
+.histoury-tour {
+    background-color: $color-bg-gray;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    .media-heading {
+        div {
+            font-size: 18px;
+        }
+        span {
+            font-size: 14px;
+            color: $color-gray;
+        }
+    }
+
+    .title-tours {
+        margin-top: 42px;
+        margin-bottom: 32px;
+        padding-left: 18px;
+        font-size: 32px;
+        color: $color-blue_global;
+    }
+}
