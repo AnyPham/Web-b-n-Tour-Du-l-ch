@@ -1,0 +1,155 @@
+@import './root.scss';
+
+.navbar {
+    background-color: $color-blue_global;
+    flex-direction: column;
+    .container-nav {
+        display: flex;
+        flex-direction: row;
+
+        .nav-left {
+
+            img {
+                width: 70px;
+            }
+        }
+        .nav-center {
+            display: flex;
+
+            .item {
+                margin-left: 24px;
+
+                a {
+                    font-size: 24px;
+                    color: $color-while;
+                }
+            }
+            .item:hover a{
+                cursor: pointer;
+                color: $color-yellow;
+            }
+
+        }
+        .nav-right {
+            display: flex;
+            flex: 1;
+            justify-content: flex-end;
+            position: relative;
+            .item {
+                .avatar {
+                    vertical-align: middle;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    margin-right: 10px
+                }
+                .icon {
+                    color: $color-while;
+                    font-size: 32px;
+                }
+                .text {
+                    font-size: 18px;
+                    color: $color-while;
+                }
+            }
+            .item:hover .icon , .item:hover .text{
+                cursor: pointer;
+                color: $color-yellow;
+            }
+            .container-user {
+                margin: 0px 12px;
+                .content {
+                        display: none;
+                        position: absolute;
+                        z-index: 10;
+                        background-color: $color-while;
+                        //display: flex;
+                        flex-direction: column;
+                        width: 220px;
+                        padding: 12px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        .button-login {
+                            margin: 10px 0;
+                            border: none;
+                            button {
+                                width: 200px;
+                                border: none;
+                                margin-top: 10px;
+                                background-color: $color-yellow;
+                                color: $color-while;
+                                font-weight: 600;
+                                border-radius: 2px;
+                                padding: 6px 51px;
+                            }
+                
+                        }
+                        .button-login:hover {
+                            button {
+                                opacity: 0.8;
+                                cursor: pointer;
+                            }
+                        }
+                         div {
+                            margin-top: 8px;
+                            font-size: 14px;
+                        }
+                    }
+            }
+            .container-user:hover {
+                .content {
+                    display: block;
+                }
+            }
+            
+
+        }
+        .container-menu {
+            display: none;
+        }
+
+        @media screen  and (max-width: 800px){
+            .nav-right, .nav-center {
+                display: none;
+            }
+            .container-menu {
+                display: block;
+                color: $color-while;
+            }
+            .nav-left {
+
+            img {
+                width: 50px;
+            }
+            }
+        }
+    }
+
+    .link-nav-mobile {
+        .link-tour {
+            font-size: 18px;
+            color: $color-while;
+            padding: 4px 20px;
+            a {
+                color: $color-while;
+            }
+        }
+        .link-user {
+            font-size: 18px;
+                color: $color-while;
+                padding: 4px 20px;
+            
+                a {
+                    color: $color-while;
+                }
+        }
+    }
+    
+}
+.fixed-top-nav{
+    background-color: rgba(0, 63, 113, 0.73);
+    position: sticky;
+    z-index:10;
+    top: 0;
+    left:0;
+    right:0
+}
