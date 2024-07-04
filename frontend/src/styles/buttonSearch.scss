@@ -1,0 +1,20 @@
+@import './root.scss';
+
+.container_search {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    bottom: 36px;
+    right: 24px;
+    background-color: $color-orange;
+    padding: 18px;
+    border-radius: 50%;
+    color: $color-blue_global;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .container_search{
+        display: block;
+    }
+}
