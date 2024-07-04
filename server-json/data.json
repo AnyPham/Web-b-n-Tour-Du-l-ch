@@ -4741,6 +4741,14 @@
       "email": "12345@gmail.com",
       "phone": "0867415853",
       "password": "1234"
+    },
+    {
+      "id": "ee19c4bc-a42c-438f-8425-3ef833bd50c5",
+      "username": "mama",
+      "fullname": "Nguyen Quoc Binh",
+      "email": "mama@gmail.com",
+      "phone": "0355422160",
+      "password": "Mama123@"
     }
   ],
   "comments": [
