@@ -1,0 +1,32 @@
+@import "root";
+body {
+  #booking{
+  background-color: $color-while;
+  }
+  #booked{
+    background-color: $color-while;
+  }
+  .support-switchboard {
+    background-color: $color-orange;
+    color: $color-while;
+    font-size: medium;
+    text-transform: none;
+
+    &:hover {
+      color: $color-blue_global;
+    }
+  }
+  .title{
+    color: $color-blue_global;
+  }
+
+  .btn-continue-booking {
+    color: $color-while;
+    background-color: $color-blue_global;
+
+    &:hover {
+      color: $color-while;
+      background-color: $color-blue_second;
+    }
+  }
+}
