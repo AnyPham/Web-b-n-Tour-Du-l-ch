@@ -49,9 +49,9 @@ const Navbar = () => {
             <div className="item">
               <Link to={"/category/2"}>Nước ngoài</Link>
             </div>
-            <div className="item">
-              <Link to={"/category/3"}>Hướng dẫn sử dụng</Link>
-            </div>
+            {/*<div className="item">*/}
+            {/*  <Link to={"/category/3"}>Hướng dẫn sử dụng</Link>*/}
+            {/*</div>*/}
           </div>
           <div className="nav-right">
             {
@@ -109,7 +109,7 @@ const Navbar = () => {
         <ul className={`link-nav-mobile ${isMenuOpen ? '': 'd-none'}`}>
           <li className='link-tour'><Link to={"/category/1"}>Trong nước</Link></li>
           <li className='link-tour'><Link to={"/category/2"}>Nước ngoài</Link></li>
-          <li className='link-tour'><Link to={"/category/3"}>Hướng dẫn sử dụng</Link></li>
+          {/*<li className='link-tour'><Link to={"/category/3"}>Hướng dẫn sử dụng</Link></li>*/}
           <li className='link-tour' onClick={handleUserToggle}>
             <span className="toggle-user">Tài khoản</span>
               <ExpandMore className="icon" />
