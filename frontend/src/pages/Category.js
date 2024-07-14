@@ -51,7 +51,7 @@ export default function Category() {
                     </div>
                     <div className='col-12 col-lg-9'>
                         <div className='container-right'>
-                            <div className='title'>Tour Du Lịch Hè Giá Tốt từ Hồ Chí Minh</div>
+                            <div className='title'>Tour Du Lịch  Giá Tốt từ Hồ Chí Minh</div>
                             <div className='arrangement row'>
                                 <div className='name col-3'>Sắp xếp theo:</div>
                                 <div className={`name col-3 ${activeSort === 'duration' ? 'active' : ''}`} onClick={() => handleSortChange('duration')}>

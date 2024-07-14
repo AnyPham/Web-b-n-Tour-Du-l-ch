@@ -16,7 +16,7 @@ const selectedTourSlice = createSlice({
             return {
                 ...state,
                 quantityAdult: quantityAdult,
-                quantityChild: quantityChild,
+                // quantityChild: quantityChild,
                 total_price: total_price,
             };
         }

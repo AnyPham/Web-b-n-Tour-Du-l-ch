@@ -50,14 +50,14 @@ export const ItemTourCheckout = (prop) => {
                                 </li>
                                 <li>
                           <span className="spec text-center">
-                            <i className="fas fa-user item-icon-fas"></i>Số người lớn: {prop.selectedTour.quantityAdult}
+                            <i className="fas fa-user item-icon-fas"></i>Số lượng hành khách : {prop.selectedTour.quantityAdult}
                           </span>
                                 </li>
-                                <li>
-                          <span className="spec text-center">
-                            <i className="fas fa-child item-icon-fas "></i>Số trẻ em: {prop.selectedTour.quantityChild}
-                          </span>
-                                </li>
+                          {/*      <li>*/}
+                          {/*<span className="spec text-center">*/}
+                          {/*  <i className="fas fa-child item-icon-fas "></i>Số trẻ em: {prop.selectedTour.quantityChild}*/}
+                          {/*</span>*/}
+                          {/*      </li>*/}
                             </ul>
                         </div>
                         <div className="priceTotal">
