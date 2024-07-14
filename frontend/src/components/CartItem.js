@@ -58,14 +58,14 @@ export const CartItem = ({item, handleDelete, selectedItemId, handleSelection}) 
                         </li>
                         <li>
                           <span className="spec">
-                            <i className="fas fa-user item-icon"></i>Số người lớn: {item.quantityAdult}
+                            <i className="fas fa-user item-icon"></i>Số lượng hành khách hiện tại: {item.quantityAdult}
                           </span>
                         </li>
-                        <li>
-                          <span className="spec">
-                            <i className="fas fa-child item-icon "></i>Số trẻ em: {item.quantityChild}
-                          </span>
-                        </li>
+                        {/*<li>*/}
+                        {/*  <span className="spec">*/}
+                        {/*    <i className="fas fa-child item-icon "></i>Số trẻ em: {item.quantityChild}*/}
+                        {/*  </span>*/}
+                        {/*</li>*/}
                     </ul>
                 </div>
             </div>
