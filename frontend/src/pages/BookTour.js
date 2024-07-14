@@ -77,14 +77,14 @@ export const BookTour = () => {
                                                     </li>
                                                     <li>
                                           <span className="spec text-center">
-                                            <i className="fas fa-user item-icon"></i>Số người lớn: {item.quantityAdult}
+                                            <i className="fas fa-user item-icon"></i>Số lượng hành khách: {item.quantityAdult}
                                           </span>
                                                     </li>
-                                                    <li>
-                                          <span className="spec text-center">
-                                            <i className="fas fa-child item-icon "></i>Số trẻ em: {item.quantityChild}
-                                          </span>
-                                                    </li>
+                                          {/*          <li>*/}
+                                          {/*<span className="spec text-center">*/}
+                                          {/*  <i className="fas fa-child item-icon "></i>Số trẻ em: {item.quantityChild}*/}
+                                          {/*</span>*/}
+                                          {/*          </li>*/}
                                                     <li>
                                           <span className="spec text-center">
                                             <i className="fas fa-money-check item-icon"></i>Hình thức: {item.payment_method}

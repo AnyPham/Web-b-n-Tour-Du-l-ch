@@ -58,7 +58,6 @@ export const Booking = () => {
                     user_id: user.id ? user.id:0,
                     tour: selectedTour.tour,
                     quantityAdult: selectedTour.quantityAdult,
-                    quantityChild: selectedTour.quantityChild,
                     total_price: selectedTour.total_price,
                     payment_method: "Phương thức thanh toán",
                     status: "pending",
