@@ -1,0 +1,67 @@
+@import './root.scss';
+
+.container2{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+                  rgba(255, 255, 255, 0.5),
+                  rgba(255, 255, 255, 0.5)
+  ),
+  url("https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wrapper {
+    width: 40%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 2.5%;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-size: 36px;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    .formLogin {
+      display: flex;
+      flex-direction: column;
+
+      .inputValue {
+        flex: 1;
+        min-width: 40%;
+        margin: 10px 0px;
+        padding: 10px;
+      }
+
+      .buttonLogin {
+        width: 100%;
+        border: none;
+        padding: 15px 20px;
+        background-color: #006680;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+    }
+
+    .linktext {
+      display: flex;
+      justify-content: space-between;
+
+      .link {
+        margin: 5px 0px;
+        font-size: 18px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+
+}
