@@ -1,6 +1,10 @@
 {
   "payment": [
     {
+      "id": 3,
+      "title": "THANH TOÁN CHUYỂN KHOẢN QUA NGÂN HÀNG",
+      "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành BinhAnhDat sẽ gửi vé điện tử của Quý khách qua email.",
+      "content": "TÀI KHOẢN NGÂN HÀNG CỦA BinhAnhDat. Lưu ý khi chuyển khoản:KHÔNG ÁP DỤNG CHUYỂN KHOẢN CHO CÁC TOUR BÁN DỊP SỰ KIỆN Quý khách vui lòng liên hệ nhân viên tư vấn, để xác nhận số chỗ trước khi thanh toán qua ngân hàngKhi chuyển khoản, quý khách vui lòng nhập nội dung chuyển khoản là:'MDH madonhang, Họ tên, Noi dung thanh toan'Ví dụ:  'MDH 0000001, Ten khach , Mua tour tren web'Ðể việc thanh toán được chính xác. Xin cảm ơn quý khách!",
       "id": 1,
       "title": "THANH TOÁN BẰNG THẺ NỘI ĐỊA ATM",
       "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
@@ -23,6 +27,9 @@
     },
     {
       "id": 4,
+      "title": "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH BINHANHDAT",
+      "description": "Quý khách vui lòng đến các văn phòng BinhAnhDat để thanh toán và nhận vé.",
+      "content": "VĂN PHÒNG LỮ HÀNH BINHANHDAT",
       "title": "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH SAIGONTOURIST",
       "description": "Quý khách vui lòng đến các văn phòng Saigontourist để thanh toán và nhận vé.",
       "content": "VĂN PHÒNG LỮ HÀNH SAIGONTOURIST",
@@ -37,10 +44,6 @@
     {
       "id": 2,
       "name": "Nước ngoài"
-    },
-    {
-      "id": 3,
-      "name": "Tour hot"
     }
   ],
   "areas": [
@@ -4741,6 +4744,14 @@
       "email": "12345@gmail.com",
       "phone": "0867415853",
       "password": "1234"
+    },
+    {
+      "id": "ee19c4bc-a42c-438f-8425-3ef833bd50c5",
+      "username": "mama",
+      "fullname": "Nguyen Quoc Binh",
+      "email": "mama@gmail.com",
+      "phone": "0355422160",
+      "password": "Mama123@"
     }
   ],
   "comments": [

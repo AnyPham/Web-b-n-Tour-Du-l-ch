@@ -1,0 +1,450 @@
+@import './root.scss';
+
+.tour {
+
+    .title {
+        font-size: $fs-32;
+        color: $color-title;
+        font-weight: $fw-lg;
+        padding: 12px 0px;
+    }
+
+    .container-rank {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 12px;
+
+        .point {
+            padding: 2px 6px;
+            margin-right: 6px;
+            color: $color-while;
+            font-size: $fs-16;
+            border-radius: 8px;
+            background-color: $color-yellow;
+        }
+
+        .rank {
+            color: $color-yellow;
+            font-weight: $fw-lg;
+        }
+    }
+
+    .tour-left {
+        .tour-header_info {
+            padding: 24px 12px;
+            background-color: rgba(148, 151, 163, .1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .left {
+                display: flex;
+                flex-direction: row;
+                .wrap {
+                    display: flex;
+                    flex-direction: row;
+                    margin-right: 36px;
+
+                    .content {
+                        font-weight: $fw-lg;
+                        color: $color-gray;
+                    }
+                    
+                    .icon {
+                        font-size: 24px;
+                        margin: 0 4px;
+                        color: $color-gray;
+                    }
+                }
+            }
+
+            .right {
+                display: flex;
+                flex-direction: row;
+                .name {
+                    margin-right: 4px;
+                    color: $color-gray;
+                    font-size: 14px;
+                }
+
+                .id {
+                    color: $color-blue_global;
+                    font-weight: $fw-lg;
+                }
+            }
+        }
+        .description {
+            margin-top: 6px;
+            background-color: $color-while;
+
+            .wrap-des {
+                padding: 12px;
+            }
+            .des-title {
+                font-size: $fs-28;
+                font-weight: $fw-lg;
+                color: $color-title;
+            }
+
+            .des-title-comment {
+                font-size: $fs-16;
+                font-weight: $fw-lg;
+                color: $color-title;
+            }
+
+            .content {
+                padding: 12px;
+                color: $color-text;
+
+                .content-des {
+                
+                    .content-des_title {
+                        font-size: $fs-22;
+                        font-weight: $fw-lg;
+                        color: $color-text;
+                    }
+                }
+                .container-rate {
+                    display: flex;
+                    align-items: center;
+                    .score {
+                        background-color: $color-green;
+                        padding: 4px 12px;
+                        border-radius: 8px;
+                        font-size: $fs-18;
+                        color: $color-while;
+                        margin-right: 6px;
+                    }
+                    .text-core {
+                        font-size: $fs-16;
+                        font-weight: 500;
+                        color: $color-orange;
+                        margin-right: 6px;
+                        font-weight: 600;
+                    }
+                    .quantity-comment {
+                        padding-left: 6px;
+                        border-left: 1px solid $color-orange;
+                        font-size: 12px;
+                        color: $color-orange;
+                        line-height: 14px;
+                    }
+                }
+
+                .container-comment {
+                    .title {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $color-text;
+                        margin-top: 28px;
+                    }
+
+                    .comments{
+                        margin-top: 12px;
+                        .item {
+                            padding: 12px;
+                            display: flex;
+                            border-top: 1px solid #ccc;
+                            .account{
+                                flex: 1;
+                                font-size: 14px;
+                                font-weight: 600;
+                                
+                            }
+                            .content-comment {
+                                flex: 4;
+                                padding-left: 32px;
+
+                                .container-rate {
+                                    display: flex;
+                                    align-items: center;
+                                
+                                    .score {
+                                        background-color: $color-green;
+                                        padding: 2px 6px;
+                                        border-radius: 4px;
+                                        font-size: 14px;
+                                        color: $color-while;
+                                        margin-right: 6px;
+                                    }
+                                
+                                    .text-core {
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        color: $color-orange;
+                                        margin-right: 6px;
+                                        font-weight: 600;
+                                    }
+                                
+                                    .date {
+                                        margin-left: 6px;
+                                        font-size: 11px;
+                                        font-weight: 600;
+                                        color: #c6c6c6;
+                                        align-content: end;
+                                        letter-spacing: 1px;
+                                    }
+                                }
+                                .text-comment-1 {
+                                    font-style: italic;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: $color-black;
+                                    margin-top: 6px;
+                                }
+                                .text-comment-2 {
+                                    .item-comment-2 {
+                                        display: flex;
+                                        border-top: 1px solid #ccc;
+                                        .user-2 {
+                                            font-size: 12px;
+                                            font-weight: 500;
+                                            margin-right: 12px;
+                                            flex: 2;
+                                            display: flex;
+                                            flex-direction: row;
+                                            margin-top: 12px;
+                                        }
+                                        .content {
+                                            flex: 9;
+                                            font-style: italic;
+                                            font-size: 14px;
+                                            font-weight: 500;
+                                            color: $color-black;
+                                            
+                                        }
+                                    }
+                                }
+                                .text-comment-server {
+                                    font-style: italic;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: $color-black;
+                                    margin-top: 6px;
+                                    background-color: $color-bg-gray;
+                                    padding: 12px;
+                                    border-radius: 8px;
+                                }
+                                .container-feedback {
+                                    display: flex;
+                                    margin-top: 4px;
+                                    align-items: center;
+                                    .text-like {
+                                        cursor: pointer;
+                                        margin-right: 24px;
+                                        font-size: 14px;
+                                    }
+                                    .text-like:hover {
+                                        color: #3684c9;
+                                    }
+
+                                    .feedback {
+                                        cursor: pointer;
+                                        font-size: 14px;
+                                    }
+
+                                    .feedback:hover {
+                                        color: #3684c9;
+                                    }
+                                    .quantity-like {
+                                        margin-left: auto;
+                                        font-size: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        .number {
+                                            margin-right: 4px;
+                                            color: #3684c9;
+                                        }
+                                        .container-like {
+                                            padding: 1px 4px;
+                                            border-radius: 50%;
+                                            background-color: #3684c9;
+                                            svg {
+                                                width: 18px;
+                                                color: #fff;
+                                            }
+                                        }
+                                        
+                                        
+                                    }
+                                }
+
+                                .container-input-feedback {
+                                    display: flex;
+                                    position: relative;
+                                    .input-feedback {
+                                        width: 100%;
+                                        padding: 4px;
+                                    }
+                                    .icon-send {
+                                        position: absolute;
+                                        right: 2px;
+                                        padding: 3px;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .tour-right {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        .top {
+            padding: 4px 16px;
+            background-color: $color-while;
+            color: $color-text;
+            .title {
+                font-size: $fs-22;
+                font-weight: $fw-lg;
+            }
+            .input {
+                width: 100%;
+
+                input {
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 5px;
+                    border: solid 1px #ccc;
+                    cursor: pointer;
+                }
+
+                input:focus {
+                    outline: solid 2px $color-blue_global;
+                    border: none;
+                }
+            }
+
+            .couter {
+                margin-top: 6px;
+                width: 100%;
+                padding: 6px;
+                border-radius: 5px;
+                border: solid 1px #ccc;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                .couter-price {
+                    color: $color-yellow;
+                }
+                .wrap-couter {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    text-align: center;
+                    .number {
+                        font-size: $fs-18;
+                        padding: 0 24px;
+                    }
+                    .prev, .next {
+                        align-items: center;
+                        font-size: 18px;
+                        padding: 4px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .note-des {
+                color: $color-blue_global;
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                margin-top: 12px;
+            }
+
+            .wrap-price {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 12px;
+                .content {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    span {
+                        color: $color-yellow;
+                        font-size: 12px;
+                        margin-left: 6px;
+                    }
+                }
+                
+                .name {
+                    font-size: $fs-18;
+                }
+
+                .price {
+                    color: $color-yellow;
+                    font-size: $fs-24;
+                    font-weight: $fw-lg;
+                }
+            }
+
+            .wrap-button {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .button {
+                    font-size: $fs-16;
+                    padding: 8px 6px;
+                    font-weight: $fw-md;
+                    border-radius: 5px;
+                    background-color: $color-while;
+                    text-transform: none;
+
+                }
+
+                .button_1 {
+                    border: solid 1px $color-orange;
+                    color: $color-orange;
+                }
+
+                .button_1:hover {
+                    background-color: $color-orange;
+                    color: $color-while;
+                }
+
+                .button_2 {
+                    border: none;
+                    color: $color-while;
+                    background-color: $color-orange;
+
+                }
+                
+                .button_2:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .bottom {
+            margin-top: 12px;
+            padding: 4px 16px;
+            background-color: $color-while;
+            color: $color-text;
+            .wrap {
+                padding: 6px 12px;
+                font-size: 15px;
+                .icon {
+                    color:$color-green;
+
+                }
+            }
+          span {
+            margin-left: 3px;
+          }  
+        }
+    }
+
+    
+}

@@ -1,0 +1,162 @@
+@import './root.scss';
+
+/* Định dạng thanh trượt */
+.scrollbar::-webkit-scrollbar {
+  width: 6px; /* Chiều rộng thanh trượt */
+  height: 6px;
+}
+
+/* Định dạng cục nút thanh trượt */
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: $color-blue_second; /* Màu sắc của thanh trượt */
+  border-radius: 5px; /* Độ cong góc của thanh trượt */
+}
+
+/* Định dạng nền thanh trượt */
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Màu sắc của nền thanh trượt */
+}
+
+
+.total-info {
+  padding: 10px;
+  border-radius: 6px;
+  color: #fbfbfb;
+  font-weight: bold;
+  background-color: $color-blue_second;
+
+  .information {
+    & span {
+      font-size: 15px;
+      font-weight: $fw-md;
+    }
+
+    & + .information {
+      margin-top: 5px;
+    }
+  }
+
+  .blue-gradient-rgba {
+    background: linear-gradient(to right, rgba(4, 102, 200, 0.95), rgba(3, 48, 101, 0.95));
+  }
+
+  .btn-rounded-minus {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .btn-rounded-add {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .btn-sm {
+    padding: 0.1rem 0.7rem !important;
+  }
+}
+
+.product-details {
+  padding: 10px;
+}
+
+body {
+  background: #eee;
+}
+
+.cart {
+  background: #fff;
+}
+
+.p-about {
+  font-size: 12px;
+}
+
+
+
+.items {
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+.spec {
+  font-size: 15px;
+}
+
+.image-tour-cart {
+  width: 200px;
+  height: 215px;
+  object-fit: cover;
+}
+
+
+ul {
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+.item-icon {
+  padding-right: 0.3rem;
+  min-width: 25px;
+  color: $color-blue_global;
+}
+
+.item-icon-fas {
+  padding-right: 0.3rem;
+  min-width: 25px;
+}
+
+.tick-icon-selected {
+  font-size: 1.4rem;
+  color: $color-blue_global;
+  cursor: pointer;
+}
+.bg-tour-selected{
+  background-color: $color-blue_third;
+}
+.icon-trash-tour-selected{
+  border: 1px solid #edf7ff;
+  background-color: #edf7ff;
+}
+
+.far.fa-check-circle {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.overflow-cart{
+  min-height: 12rem;
+  max-height: 28rem;
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
+  border-radius: 5px;
+}
+.remove-btn:focus {
+  outline: none;
+}
+.btn-begin-checkout{
+  background-color: $color-orange;
+  font-size: 1.1rem ;
+  font-weight: 700;
+  text-transform: none;
+  transition: color 0.4s ease, background-color 0.4s ease;
+  &:hover{
+    color: $color-orange;
+    background-color: $color-while;
+
+  }
+}
+
+.remove-btn:hover{
+  opacity: 0.6;
+}
+.item-title-cart{
+  color: $color-blue_global;
+}
+.icon-cart{
+  color: $color-while;
+  font-size:1.25rem;
+  &:hover{
+    color: $color-yellow;
+  }
+}

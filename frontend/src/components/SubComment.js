@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Person } from '@material-ui/icons';
+import { Person } from '@mui/icons-material';
 import { useDispatch, useSelector } from 'react-redux';
 import { getSubCommentsByIdComment } from '../redux/selectors';
 import { fetchSubComments } from '../redux/slices/SubCommentSlice';

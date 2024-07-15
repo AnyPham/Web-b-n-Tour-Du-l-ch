@@ -1,0 +1,31 @@
+@import './root.scss';
+
+.list-area {
+    border: solid 1px #ccc;
+    margin-top: 24px;
+
+    ul,li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .title {
+        background-color: #dfdfdf;
+        font-size: $fs-18;
+        padding: 6px 12px;
+    }
+
+    .container-list {
+        background-color: $color-while;
+        padding: 12px;
+
+        li {
+            padding-top: 12px;
+            cursor: pointer;
+        }
+
+        li:hover {
+            color: $color-blue_global;
+        }
+    }
+}

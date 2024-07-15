@@ -1,0 +1,60 @@
+@import './root.scss';
+
+.card-history {
+    position: relative;
+    .card-body {
+        padding: 8px 16px;
+        .text-score {
+            color: $color-orange;
+            margin-right: 4px;
+            font-weight: 600;
+        }
+
+        .score {
+            background-color: $color-orange;
+            color: $color-while;
+            padding: 0px 6px;
+            border-radius: 8px;
+        }
+    }
+    .title {
+        font-size: 16px;
+        color: $color-title;
+        font-weight: $fw-lg;
+        margin-bottom: 4px;
+        height: 72px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+
+    .wrap-price {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        .text-price {
+            color: $color-green;
+            text-align: right;
+            line-height: 1.2;
+            font-weight: 600;
+            font-size: 11px;
+        }
+        .price-history {
+            font-size: 16px;
+            margin-right: 6px;
+        }
+    }
+
+    .close {
+        position: absolute;
+        z-index: 10;
+        right: 0px;
+        top: 0px;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 4px 4px 36px;
+        cursor: pointer;
+    }
+}
