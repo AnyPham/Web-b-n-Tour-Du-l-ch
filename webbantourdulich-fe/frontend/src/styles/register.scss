@@ -1,0 +1,64 @@
+@import './root.scss';
+
+.container1 {
+    width: 100vw;
+    height: 91vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+    url("https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper {
+        width: 40%;
+        padding: 20px;
+        border-radius: 2.5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+
+
+        .title {
+            font-size: 36px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .formRegister {
+            display: flex;
+            flex-wrap: wrap;
+
+            .inputValue {
+                flex: 1;
+                min-width: 40%;
+                margin: 10px 10px 0px 0px;
+                padding: 10px;
+            }
+
+            .agreement {
+                font-size: 15px;
+                margin: 20px 0px;
+                text-align: center;
+
+                .linkAgree {
+                    font-size: 15px;
+                    color: #006680;
+                    justify-content: space-between;
+                    display: inline;
+                }
+            }
+
+            .buttonRegis {
+                width: 100%;
+                border: none;
+                padding: 15px 20px;
+                background-color: #006680;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
