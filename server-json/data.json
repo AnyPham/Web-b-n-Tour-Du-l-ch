@@ -1,39 +1,19 @@
 {
   "payment": [
     {
-      "id": 3,
+      "id": 1,
       "title": "THANH TOÁN CHUYỂN KHOẢN QUA NGÂN HÀNG",
       "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành BinhAnhDat sẽ gửi vé điện tử của Quý khách qua email.",
       "content": "TÀI KHOẢN NGÂN HÀNG CỦA BinhAnhDat. Lưu ý khi chuyển khoản:KHÔNG ÁP DỤNG CHUYỂN KHOẢN CHO CÁC TOUR BÁN DỊP SỰ KIỆN Quý khách vui lòng liên hệ nhân viên tư vấn, để xác nhận số chỗ trước khi thanh toán qua ngân hàngKhi chuyển khoản, quý khách vui lòng nhập nội dung chuyển khoản là:'MDH madonhang, Họ tên, Noi dung thanh toan'Ví dụ:  'MDH 0000001, Ten khach , Mua tour tren web'Ðể việc thanh toán được chính xác. Xin cảm ơn quý khách!",
-      "id": 1,
-      "title": "THANH TOÁN BẰNG THẺ NỘI ĐỊA ATM",
-      "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
-      "content": "Saigontourist chấp nhận thanh toán bằng các thẻ ATM nội địa do các ngân hàng tại Việt Nam phát hành.Thẻ ghi nợ nội địa (thẻ ATM): Vietcombank, Vietinbank, DongA , VIBank, Techcombank, HDBank, Tienphong Bank, Military Bank, VietA Bank, Maritime Bank, Eximbank, SHB, Sacombank,  NamA Bank,...(23 Ngân hàng)",
       "status": false
     },
-    {
-      "id": 2,
-      "title": "THANH TOÁN BẰNG THẺ TÍN DỤNG",
-      "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
-      "content": "Saigontourist chấp nhận thanh toán dịch vụ bằng các loại thẻ tín dụng quốc tế như Visa, Master và Amex.",
-      "status": false
-    },
-    {
-      "id": 3,
-      "title": "THANH TOÁN CHUYỂN KHOẢN QUA NGÂN HÀNG",
-      "description": "Sau khi đặt vé và thanh toán thành công, Lữ hành Saigontourist sẽ gửi vé điện tử của Quý khách qua email.",
-      "content": "TÀI KHOẢN NGÂN HÀNG CỦA SAIGONTOURIST.Lưu ý khi chuyển khoản:KHÔNG ÁP DỤNG CHUYỂN KHOẢN CHO CÁC TOUR BÁN DỊP SỰ KIỆN Quý khách vui lòng liên hệ nhân viên tư vấn, để xác nhận số chỗ trước khi thanh toán qua ngân hàngKhi chuyển khoản, quý khách vui lòng nhập nội dung chuyển khoản là:'MDH madonhang, Họ tên, Noi dung thanh toan'Ví dụ:  'MDH 0000001, Ten khach , Mua tour tren web'Ðể việc thanh toán được chính xác. Xin cảm ơn quý khách!",
-      "status": false
-    },
+
     {
       "id": 4,
       "title": "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH BINHANHDAT",
       "description": "Quý khách vui lòng đến các văn phòng BinhAnhDat để thanh toán và nhận vé.",
       "content": "VĂN PHÒNG LỮ HÀNH BINHANHDAT",
-      "title": "THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG LỮ HÀNH SAIGONTOURIST",
-      "description": "Quý khách vui lòng đến các văn phòng Saigontourist để thanh toán và nhận vé.",
-      "content": "VĂN PHÒNG LỮ HÀNH SAIGONTOURIST",
-      "status": false
+           "status": false
     }
   ],
   "catagories": [
@@ -4752,80 +4732,6 @@
       "email": "mama@gmail.com",
       "phone": "0355422160",
       "password": "Mama123@"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "idTour": 10,
-      "commenter": "Nguyen DU Lap",
-      "content": "Khách sạn không có nước nóng không có wifi thẩt sự rất nóng, thái độ nhân viên phục vụ tạm được",
-      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
-      "rating": 7,
-      "date": "18-11-2022",
-      "quantityLike": 10
-    },
-    {
-      "id": 2,
-      "idTour": 12,
-      "commenter": "John Doe",
-      "content": "Mình mua tour cho gia đình 11 người, gồm người lớn và trẻ em. Gia đình mình đã rất vui vì có một chuyện đi vô cùng thú vị cùng ivivu và Triều Hảo. Cảm ơn em Kiều Anh bên ivivu đã rất nhiệt tình tư vấn và hỗ trợ. Cảm ơn em Giang dẫn tour của cty Triều Hảo đã vô cùng tận tình với gia đình chị. Tour Bali của ivivu và Triều Hảo là tour NÊN ĐI nha mọi người ????",
-      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
-      "rating": 9,
-      "date": "22-01-2023",
-      "quantityLike": 5
-    },
-    {
-      "id": 3,
-      "idTour": 12,
-      "commenter": "Yen",
-      "content": "This hotel is amazing!",
-      "contentServer": "chân thành cảm ơn những lời góp ý từ gia đình chị Thu Vân, iVIVU rất tiếc vì chuyến đi của mình không như mong đợi, iVIVU sẽ ghi nhận và làm việc lại các dịch vụ và từng bước cải thiện",
-      "rating": 9,
-      "date": "22-01-2023",
-      "quantityLike": 5
-    },
-    {
-      "id": "ac3d8844-a2c0-478f-9b31-8bf9c8b8baef",
-      "idTour": 1,
-      "commenter": "Lenh Nguyen",
-      "content": "ok",
-      "contentServer": "",
-      "rating": 5,
-      "date": "18-06-2023",
-      "quantityLike": 0
-    }
-  ],
-  "subComments": [
-    {
-      "id": 1,
-      "idComment": 1,
-      "commenter": "Lenh Nguyen",
-      "content": "Có phải vậy không"
-    },
-    {
-      "id": 2,
-      "idComment": 2,
-      "commenter": "Thuy Linh",
-      "content": "Có phải vậy không"
-    },
-    {
-      "id": 3,
-      "idComment": 1,
-      "commenter": "Lenh Nguyen",
-      "content": "Có phải vậy không"
-    },
-    {
-      "id": "91684679-efb7-4c6a-b2e6-e800a6b48525",
-      "idComment": 2,
-      "commenter": "LapLap",
-      "content": "Thật tuyệt vờivời"
-    },
-    {
-      "id": "91684679-efb7-4c6a-b2e6",
-      "idComment": 3,
-      "commenter": "Boy",
-      "content": "Tour khá tuyệt vời mình cũng rất thích"
     }
   ]
 }
