@@ -6,13 +6,13 @@ export const addCartTourToLocal = (cart) => {
     // Lấy dữ liệu từ localStorage (nếu có) và chuyển đổi từ chuỗi JSON thành mảng
     const id = cart.id === undefined ? cart.idCard : cart.id;
     const quantityAdult = cart.quantityAdult === undefined ? 1 : cart.quantityAdult;
-    const quantityChild = cart.quantityChild === undefined ? 0 : cart.quantityChild;
+    // const quantityChild = cart.quantityChild === undefined ? 0 : cart.quantityChild;
     const tour = cart.tour === undefined ? cart :cart.tour
     const updatedItems = [...storedItems, {
         id: id,
         tour: tour,
         quantityAdult: quantityAdult,
-        quantityChild: quantityChild,
+        // quantityChild: quantityChild,
         total_price: cart.price,
         status: "Chưa thanh toán"
     }];
@@ -42,7 +42,7 @@ export const updateCartTourInLocal = (id, quantityAdult, quantityChild, total_pr
             return {
                 ...item,
                 quantityAdult: updatedQuantityAdult,
-                quantityChild: updatedQuantityChild,
+                // quantityChild: updatedQuantityChild,
                 total_price: total_price
             };
         }
@@ -99,7 +99,7 @@ export const addCheckoutToLocal = (checkout) => {
         user_id: checkout.user_id,
         tour:checkout.tour,
         quantityAdult: checkout.quantityAdult,
-        quantityChild: checkout.quantityChild,
+        // quantityChild: checkout.quantityChild,
         total_price: checkout.total_price,
         payment_method: checkout.payment_method,
         status: checkout.status,
