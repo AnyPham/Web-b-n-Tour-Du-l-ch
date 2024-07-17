@@ -1,0 +1,10 @@
+@import './root.scss';
+
+.custom-datepicker {
+    font-size: 14px;
+}
+
+.custom-calendar .react-datepicker__day--highlighted {
+    font-weight: bold;
+    background-color: $color-blue_global;
+}
