@@ -13,6 +13,7 @@ export const Login = () => {
     const [passwordS, passwordupdate] = useState('');
     const selectedTour = useSelector(state => state.selectedTour)
     const history = useNavigate();
+    const hbsahdkb;
     //,mnsfnvsnfafsnvjasnvlsajn
     useEffect(() => {
         sessionStorage.clear();
