@@ -18,6 +18,7 @@ const Home = () => {
       <Footer />
       <div className="container_search">
         <Search className='icon' />
+      {/*    bsfvbkfasv*/}
       </div>
     </div>
   );
