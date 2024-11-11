@@ -5,7 +5,7 @@ import {toast} from "react-toastify";
 import {useNavigate} from "react-router-dom";
 
 export const Account = () => {
-
+    // nsanvksajkj
     const user = JSON.parse(localStorage.getItem("user"));
 
     const navigate = useNavigate();
